@@ -12,6 +12,10 @@ const API_ENDPOINT = 'https://yesno.wtf/api';
  *
  */
 
+//Se borra el onkeypress="handleKeyEnter(event)" de la linea 
+//<input id="input" class="input" type="text" onkeypress="handleKeyEnter(event)" value="" required />
+//del html
+
 //Se crea la funcion fetchAnswer
 async function fetchAnswer() {
     try {
